@@ -1,0 +1,14 @@
+/home/angel/RiderProjects/PrisonersDilema/bin/Debug/net8.0/PrisonersDilema
+/home/angel/RiderProjects/PrisonersDilema/bin/Debug/net8.0/PrisonersDilema.deps.json
+/home/angel/RiderProjects/PrisonersDilema/bin/Debug/net8.0/PrisonersDilema.runtimeconfig.json
+/home/angel/RiderProjects/PrisonersDilema/bin/Debug/net8.0/PrisonersDilema.dll
+/home/angel/RiderProjects/PrisonersDilema/bin/Debug/net8.0/PrisonersDilema.pdb
+/home/angel/RiderProjects/PrisonersDilema/obj/Debug/net8.0/PrisonersDilema.GeneratedMSBuildEditorConfig.editorconfig
+/home/angel/RiderProjects/PrisonersDilema/obj/Debug/net8.0/PrisonersDilema.AssemblyInfoInputs.cache
+/home/angel/RiderProjects/PrisonersDilema/obj/Debug/net8.0/PrisonersDilema.AssemblyInfo.cs
+/home/angel/RiderProjects/PrisonersDilema/obj/Debug/net8.0/PrisonersDilema.csproj.CoreCompileInputs.cache
+/home/angel/RiderProjects/PrisonersDilema/obj/Debug/net8.0/PrisonersDilema.dll
+/home/angel/RiderProjects/PrisonersDilema/obj/Debug/net8.0/refint/PrisonersDilema.dll
+/home/angel/RiderProjects/PrisonersDilema/obj/Debug/net8.0/PrisonersDilema.pdb
+/home/angel/RiderProjects/PrisonersDilema/obj/Debug/net8.0/PrisonersDilema.genruntimeconfig.cache
+/home/angel/RiderProjects/PrisonersDilema/obj/Debug/net8.0/ref/PrisonersDilema.dll
