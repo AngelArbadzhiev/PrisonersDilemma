@@ -1,23 +1,28 @@
+using System.Collections;
+
 namespace PrisonersDilemma;
 
-class Altruist: Player{
+class Altruist: IPlayer
+{
+    private Hashtable _lastResult;
+
     public string Name(){
         return "Altruist";
     }
-    public Choice Play(Player opponent)
+
+    public void Start()
     {
-        Random rnd = new Random();
-        var num = rnd.Next(0, 2);
-        var choice = Choice.Cooperate;
-        choice = num.Equals(1) ? Choice.Betray : Choice.Cooperate;
-        if(Choice.Betray.ToString() == "Betray")
+        _lastResult = new Hashtable();
+    }
+
+    public Choice Play(IPlayer opponent)
+    {
+        if (_lastResult.ContainsKey(opponent.Name()))
         {
-            return Choice.Betray;
-        }
-        else
-        {
-            return Choice.Cooperate;
+            var lastaction = (Choice)(_lastResult[opponent.Name()] ?? throw new Exception("Argument is null."));
+            return lastaction;
         }
 
+        return Choice.Betray;
     }
 }

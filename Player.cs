@@ -1,6 +1,7 @@
 namespace PrisonersDilemma;
 
-interface Player{
+public interface IPlayer{
     string Name();
-    Choice Play(Player opponent);
+    Choice Play(IPlayer opponent);
+    void Start();
 }

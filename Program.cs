@@ -4,12 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-	    Player player = new Altruist();
-	    Player player2 = new Egoist();
+	    IPlayer player = new Altruist();
+	    IPlayer player2 = new RandomChooser();
 	    player.Play(player2);
     }
 }
-enum Choice{
+
+public enum Choice{
 	Betray,
 	Cooperate
 }

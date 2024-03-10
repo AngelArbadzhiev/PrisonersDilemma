@@ -1,10 +1,10 @@
 namespace PrisonersDilemma;
 
-class UltimateAltruist : IPlayer
+public class GoodUntillOppBad : IPlayer
 {
     public string Name()
     {
-        return "UltimateAltruist";
+        return "GoodUntillOppBad";
     }
 
     public void Start()
@@ -14,6 +14,6 @@ class UltimateAltruist : IPlayer
 
     public Choice Play(IPlayer opponent)
     {
-        return Choice.Cooperate;
+
     }
 }
