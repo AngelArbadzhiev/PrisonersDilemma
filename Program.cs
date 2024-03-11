@@ -1,24 +1,17 @@
 ﻿namespace PrisonersDilemma;
 
-class Program
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
-	    IPlayer player = new Altruist();
-	    IPlayer player2 = new UltimateEgoist();
-	    player.Play(player2);
+        IPlayer player = new Altruist();
+        IPlayer player2 = new UltimateEgoist();
+        player.Play(player2);
     }
 }
 
-public enum Choice{
-	Betray,
-	Cooperate
+public enum Choice
+{
+    Betray,
+    Cooperate
 }
-
-
-
-
-
-
-
-

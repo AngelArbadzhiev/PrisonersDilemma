@@ -7,13 +7,11 @@ public class GoodUntilOppBad : IPlayer
         return "GoodUntilOppBad";
     }
 
-    public void Start()
-    {
-
-    }
-
     public Choice Play(IPlayer opponent)
     {
+    }
 
+    public void Result(Game game)
+    {
     }
 }

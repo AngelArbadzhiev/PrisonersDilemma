@@ -1,15 +1,14 @@
 namespace PrisonersDilemma;
 
-class UltimateEgoist : IPlayer
+internal class UltimateEgoist : IPlayer
 {
     public string Name()
     {
         return "UltimateEgoist";
     }
 
-    public void Start()
+    public void Result()
     {
-
     }
 
     public Choice Play(IPlayer opponent)

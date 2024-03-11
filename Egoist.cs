@@ -7,14 +7,12 @@ public class Egoist : IPlayer
         return "Egoist";
     }
 
-    public void Start()
+    public void Result()
     {
-        
     }
 
     public Choice Play(IPlayer opponent)
     {
-        
         return Choice.Betray;
     }
 }
