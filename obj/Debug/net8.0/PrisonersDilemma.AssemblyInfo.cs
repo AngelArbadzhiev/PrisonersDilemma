@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrisonersDilemma")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+547443e87b70369f7b5c2a53da1dff4daab29665")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fd79c32161db963b612d6d68be85440e78e64ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrisonersDilemma")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrisonersDilemma")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

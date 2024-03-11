@@ -1,10 +1,10 @@
 namespace PrisonersDilemma;
 
-public class GoodUntillOppBad : IPlayer
+public class GoodUntilOppBad : IPlayer
 {
     public string Name()
     {
-        return "GoodUntillOppBad";
+        return "GoodUntilOppBad";
     }
 
     public void Start()
